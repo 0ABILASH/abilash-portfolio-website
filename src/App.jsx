@@ -10,12 +10,10 @@ import Hero from './components/Hero'
 import Marquee from './components/Marquee'
 import About from './components/About'
 import PhotoGrid from './components/PhotoGrid'
-// import StatsBar from './components/StatsBar'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-
 
 export default function App() {
   const { isLight, toggle } = useTheme()
@@ -52,7 +50,6 @@ export default function App() {
       <PhotoGrid />
       <Skills />
       <Experience />
-      {/* <StatsBar /> */}
       <Contact />
       <Marquee />
       <Footer />

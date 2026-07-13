@@ -35,8 +35,11 @@ export default function Hero() {
         const t = setTimeout(() => setRoleText(roleText.slice(0, -1)), 5)
         return () => clearTimeout(t)
       } else {
-        setRolePhase('typing')
-        setRoleIndex((i) => (i + 1) % roles.length)
+        const t = setTimeout(() => {
+          setRolePhase('typing')
+          setRoleIndex((i) => (i + 1) % roles.length)
+        }, 5)
+        return () => clearTimeout(t)
       }
     }
   }, [roleText, rolePhase, roleIndex, showContent])
