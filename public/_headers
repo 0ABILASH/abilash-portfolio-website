@@ -1,0 +1,21 @@
+/*
+  X-Content-Type-Options: nosniff
+
+/assets/*.css
+  Content-Type: text/css
+
+/assets/*.js
+  Content-Type: application/javascript
+
+/assets/*.svg
+  Content-Type: image/svg+xml
+
+/*.png
+  Content-Type: image/png
+
+/*.webp
+  Content-Type: image/webp
+
+/gallery/*
+  Content-Type: image/png
+  Cache-Control: public, max-age=31536000, immutable
