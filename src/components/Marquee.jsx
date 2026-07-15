@@ -116,7 +116,7 @@ export default function Marquee() {
         }
         .mq-item {
           font-family: 'Archivo Black', sans-serif;
-          font-size: 1.05rem;
+          font-size: .85rem;
           color: rgba(0,0,0,.9);
           white-space: nowrap;
           letter-spacing: .06em;

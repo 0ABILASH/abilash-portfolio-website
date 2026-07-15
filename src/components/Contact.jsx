@@ -77,8 +77,8 @@ export default function Contact() {
           padding: 0 var(--gutter, 24px);
         }
         .cb-tile {
-          background: rgba(200,169,126,.04);
-          border: 1px solid rgba(200,169,126,.12);
+          background: rgba(var(--a-rgb),.04);
+          border: 1px solid rgba(var(--a-rgb),.12);
           border-radius: 16px;
           padding: 1.5rem;
           opacity: 0;
@@ -87,46 +87,49 @@ export default function Contact() {
         }
         .cb-tile.visible { opacity: 1; transform: translateY(0); }
         .cb-tile:hover {
-          border-color: var(--a, #c8a97e);
-          background: rgba(200,169,126,.08);
+          border-color: var(--a);
+          background: rgba(var(--a-rgb),.08);
         }
         .cb-hero {
           grid-row: span 3;
           display: flex;
           flex-direction: column;
-          justify-content: space-between;
+          justify-content: center;
+          align-items: center;
           min-height: 280px;
         }
         .cb-hero-eyebrow {
-          font-size: .7rem;
-          letter-spacing: .1em;
+          font-size: .85rem;
+          letter-spacing: .15em;
           text-transform: uppercase;
-          opacity: .5;
+          opacity: .55;
           margin: 0 0 10px;
+          text-align: center;
         }
         .cb-hero-title {
-          font-family: 'Archivo Black', sans-serif;
+          font-family: "Alan Sans", sans-serif;
           font-size: clamp(1.6rem, 3vw, 2.2rem);
           line-height: 1.35;
           margin: 0;
+          text-align: center;
         }
         .cb-hero-cta {
-          align-self: flex-start;
-          margin-top: 24px;
+          align-self: center;
+          margin-top: 28px;
           display: inline-flex;
           align-items: center;
           gap: 10px;
           padding: 12px 22px;
-          border: 1px solid var(--a, #c8a97e);
+          border: 1px solid var(--a);
           border-radius: 999px;
           text-decoration: none;
-          color: var(--fg, #000);
+          color: var(--fg);
           font-size: .78rem;
           letter-spacing: .05em;
           transition: background .3s ease, color .3s ease;
         }
         .cb-hero-cta:hover {
-          background: var(--a, #c8a97e);
+          background: var(--a);
           color: #111;
         }
         .cb-social {
@@ -134,13 +137,13 @@ export default function Contact() {
           align-items: center;
           gap: 14px;
           text-decoration: none;
-          color: var(--fg, #000);
+          color: var(--fg);
         }
         .cb-social-icon {
           width: 44px;
           height: 44px;
           border-radius: 12px;
-          background: rgba(200,169,126,.1);
+          background: rgba(var(--a-rgb),.1);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -161,7 +164,7 @@ export default function Contact() {
         <div className="cb-tile cb-hero">
           <div>
             <p className="cb-hero-eyebrow">Say hello</p>
-            <p className="cb-hero-title">Feel-Free to get in touch.</p>
+            {/* <p className="cb-hero-title">Feel-Free to get in touch.</p> */}
           </div>
           <a href="mailto:mailtoabilashy@gmail.com" className="cb-hero-cta">
             Email me

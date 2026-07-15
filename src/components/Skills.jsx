@@ -58,7 +58,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="skills-section">
-      <div className="sec-label">Expertise</div>
+      <div className="sec-label">Skills</div>
 
       <div className="skills-split">
         <div className="skills-tabs">

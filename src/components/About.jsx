@@ -214,33 +214,8 @@ export default function About() {
                 </span>
               </div>
               <div className="about-game-title">
-                <svg width="26" height="26" viewBox="0 0 64 64" fill="none">
-                  <rect
-                    x="2"
-                    y="2"
-                    width="60"
-                    height="60"
-                    rx="14"
-                    fill="#7fa650"
-                  />
-                  <path
-                    d="M40 18c-2-4-8-6-10-2-2 4 2 8 4 10s-4 2-6 2"
-                    stroke="#fff"
-                    strokeWidth="2.8"
-                    strokeLinecap="round"
-                    fill="none"
-                  />
-                  <path
-                    d="M28 28c-2 4-6 6-6 12h18c0-6-2-8-4-10"
-                    stroke="#fff"
-                    strokeWidth="2.8"
-                    strokeLinecap="round"
-                    fill="none"
-                  />
-                  <circle cx="38" cy="16" r="3" fill="#fff" />
-                  <path d="M22 46h18l-4 6H26l-4-6z" fill="#fff" />
-                </svg>
-                <span>Chess</span>
+                <img src="/image%20%281%29.webp" alt="Chess.com" className="about-game-logo" />
+                <span>Chess.com</span>
               </div>
               <p className="about-game-desc">
                 Chess is more than a game to me—it's a way to train my mind. It
@@ -267,7 +242,7 @@ export default function About() {
           </a>
 
           <a
-            href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans"
+            href="https://link.clashofclans.com/en?action=OpenPlayerProfile&tag=QJ8UYY2JU"
             target="_blank"
             rel="noopener noreferrer"
             className="about-game"
@@ -310,47 +285,7 @@ export default function About() {
                 </span>
               </div>
               <div className="about-game-title">
-                <svg width="26" height="26" viewBox="0 0 64 64" fill="none">
-                  <rect
-                    x="2"
-                    y="2"
-                    width="60"
-                    height="60"
-                    rx="14"
-                    fill="#e8453c"
-                  />
-                  <path
-                    d="M24 18c0-4 2-6 8-6s8 2 8 6v2c0 2-1 4-3 6l-5 6-5-6c-2-2-3-4-3-6v-2z"
-                    fill="#fff"
-                  />
-                  <path
-                    d="M18 28c0-2 2-4 6-5l8-2 8 2c4 1 6 3 6 5v2c0 2-2 4-6 5l-8 2-8-2c-4-1-6-3-6-5v-2z"
-                    fill="#fff"
-                  />
-                  <path
-                    d="M28 18l-4-4"
-                    stroke="#e8453c"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                  />
-                  <path
-                    d="M36 18l4-4"
-                    stroke="#e8453c"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                  />
-                  <circle cx="28" cy="24" r="2.5" fill="#e8453c" />
-                  <circle cx="36" cy="24" r="2.5" fill="#e8453c" />
-                  <path
-                    d="M28 30c2 2 6 2 8 0"
-                    stroke="#e8453c"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    fill="none"
-                  />
-                  <path d="M18 46l-2 6h32l-2-6" fill="#fff" />
-                  <path d="M14 46h36" stroke="#e8453c" strokeWidth="2.5" />
-                </svg>
+                <img src="/Clash%20of%20Clans%20Logo.jpg" alt="Clash of Clans" className="about-game-logo" />
                 <span>Clash of Clans</span>
               </div>
               <p className="about-game-desc">

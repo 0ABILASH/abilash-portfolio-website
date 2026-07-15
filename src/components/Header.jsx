@@ -2,7 +2,7 @@ export default function Header({ isLight, toggleTheme }) {
   return (
     <header>
       <a href="#home" className="logo">
-        <span className="logo-text" id="logoText">PORTFOLIO</span>
+        <span className="logo-text" id="logoText">PROFILE</span>
       </a>
       <nav>
         <span className="nav-hidden-mobile">

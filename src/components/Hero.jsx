@@ -52,8 +52,8 @@ export default function Hero() {
       <div className="hero-inner">
         <div className={`hero-main ${showContent ? 'hero-main--show' : ''}`}>
           <div className="hero-greeting">
-            <span className="hero-greeting-dot" />
-            <span>Hello, I'm</span>
+            {/* <span className="hero-greeting-dot" /> */}
+            {/* <span>Hello, I'm</span> */}
           </div>
 
           <h1 className="hero-name">
@@ -103,7 +103,7 @@ I'm passionate about software and design, and I enjoy building useful digital ex
           </div>
           <div className="hero-badge hero-badge--node" style={{ '--dx': `${((mousePos.x / window.innerWidth - 0.5) * 14)}px`, '--dy': `${((mousePos.y / window.innerHeight - 0.5) * 14)}px` }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2L2 7v10l10 5 10-5V7l-10-5z"/><path d="M2 7l10 5 10-5"/><path d="M12 22V12"/></svg>
-            <span>Node.js</span>
+            <span>UI/UX</span>
           </div>
           
 

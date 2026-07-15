@@ -75,7 +75,7 @@ export default function PhotoGrid() {
 
   return (
     <section className="collection-section" id="gallery">
-      <div className="sec-label">Gallery</div>
+      {/* <div className="sec-label">Gallery</div> */}
 
       {!activeCollection ? (
         <div className="coll-grid">
