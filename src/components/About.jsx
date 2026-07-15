@@ -29,7 +29,7 @@ export default function About() {
       <div className="sec-label">About</div>
 
       <div className="about-grid">
-        <div className="about-info">
+        <div className="about-info rv">
           <h2 className="about-heading">
           Who<em> I Am</em>
           </h2>
@@ -46,8 +46,8 @@ export default function About() {
               width="14"
               height="14"
               viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
+              fill="red"
+              stroke="#ffffff"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -55,11 +55,11 @@ export default function About() {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            <span>Based in India · Open to Remote / Relocation</span>
+            <span>Bangalore · Open to Remote / Relocation</span>
           </div>
         </div>
 
-        <div className="about-visual">
+        <div className="about-visual rv">
           <div className="about-visual-frame">
             <video
               className="about-video-el"
@@ -142,7 +142,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="about-story">
+      <div className="about-story rv">
             <h3 className="about-story-title">
               A Kutty Story about <em>Me</em>
             </h3>

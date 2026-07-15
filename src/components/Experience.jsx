@@ -1,4 +1,7 @@
+import { useScrollReveal } from '../hooks/useScrollReveal'
+
 export default function Experience() {
+  useScrollReveal()
   const milestones = [
     {
       id: 1,
@@ -36,7 +39,7 @@ export default function Experience() {
       <div className="sec-label">Experience</div>
 
       <div className="exp-grid">
-        <div className="exp-intro">
+        <div className="exp-intro rv">
           <span className="exp-intro-label">Career Path</span>
           <h2 className="exp-intro-title">
             From to <em>Where </em>
@@ -47,7 +50,7 @@ export default function Experience() {
             into a developer, and now freelancing as a software engineer —
             continuously learning and building impactful products.
           </p>
-          <div className="about-metrics">
+          <div className="about-metrics rv">
             <div className="about-metric">
               <span className="about-metric-value">3+</span>
               <span className="about-metric-label">Years Exp.</span>
@@ -68,7 +71,7 @@ export default function Experience() {
           {milestones.map((m, i) => (
             <div
               key={m.id}
-              className={`exp-card ${m.current ? "exp-card--current" : ""}`}
+              className={`exp-card rv ${m.current ? "exp-card--current" : ""}`}
             >
               <div className="exp-card-side">
                 <div
@@ -105,7 +108,7 @@ export default function Experience() {
         </div>
       </div>
 
-      <div className="exp-pivot">
+      <div className="exp-pivot rv">
         <div className="exp-pivot-icon">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="M12 5l7 7-7 7" /></svg>
         </div>
