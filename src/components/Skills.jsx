@@ -18,8 +18,8 @@ export default function Skills() {
     <section id="skills" className="skills-section">
       <div className="sec-label">Skills</div>
       <div className="sk-mosaic">
-        {skills.map(s => (
-          <div key={s.title} className={`sk-mosaic-card size-${s.size} rv`}>
+        {skills.map((s, i) => (
+          <div key={s.title} className={`sk-mosaic-card size-${s.size} rv`} style={{ '--i': i }}>
             <span className="sk-mosaic-iw">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d={s.path} />
