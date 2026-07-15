@@ -9,7 +9,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Marquee from './components/Marquee'
 import About from './components/About'
-import PhotoGrid from './components/PhotoGrid'
+// import PhotoGrid from './components/PhotoGrid'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
@@ -47,7 +47,7 @@ export default function App() {
       <Header isLight={isLight} toggleTheme={toggle} />
       <Hero />
       <About />
-      <PhotoGrid />
+      {/* <PhotoGrid /> */}
       <Skills />
       <Experience />
       <Contact />
