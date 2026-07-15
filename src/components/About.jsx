@@ -30,7 +30,6 @@ export default function About() {
 
       <div className="about-grid">
         <div className="about-info">
-          {/* <span className="about-tagline">Hi, I'm Abilash</span> */}
           <h2 className="about-heading">
           Who<em> I Am</em>
           </h2>
@@ -144,7 +143,6 @@ export default function About() {
       </div>
 
       <div className="about-story">
-          {/* <d className="about-story-body"></d> */}
             <h3 className="about-story-title">
               A Kutty Story about <em>Me</em>
             </h3>

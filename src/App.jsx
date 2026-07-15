@@ -1,22 +1,18 @@
 import { useEffect } from 'react'
-import { useTheme } from './hooks/useTheme'
 import { useScrollReveal } from './hooks/useScrollReveal'
 import { useDisableCopy } from './hooks/useDisableCopy'
 
 import Loader from './components/Loader'
-import ScrollProgress from './components/ScrollProgress'
+
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Marquee from './components/Marquee'
 import About from './components/About'
-// import PhotoGrid from './components/PhotoGrid'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 
 export default function App() {
-  const { isLight, toggle } = useTheme()
   useScrollReveal()
   useDisableCopy()
 
@@ -42,17 +38,13 @@ export default function App() {
   return (
     <>
       <Loader />
-      <div id="sp"></div>
-      <ScrollProgress />
-      <Header isLight={isLight} toggleTheme={toggle} />
+      <Header />
       <Hero />
       <About />
-      {/* <PhotoGrid /> */}
       <Skills />
       <Experience />
       <Contact />
-      <Marquee />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

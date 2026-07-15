@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <div>&copy; 2026 ABILASH</div>
+      <div></div>
     </footer>
   )
 }

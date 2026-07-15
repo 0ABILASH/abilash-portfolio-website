@@ -52,8 +52,6 @@ export default function Hero() {
       <div className="hero-inner">
         <div className={`hero-main ${showContent ? 'hero-main--show' : ''}`}>
           <div className="hero-greeting">
-            {/* <span className="hero-greeting-dot" /> */}
-            {/* <span>Hello, I'm</span> */}
           </div>
 
           <h1 className="hero-name">
@@ -67,8 +65,6 @@ export default function Hero() {
 
           <p className="hero-bio">
 I'm passionate about software and design, and I enjoy building useful digital experiences. I'm always open to learning, collaborating, and exploring new opportunities. If you'd like to connect or discuss a project, feel free to get in touch. I'd love to hear from you.
-
-            {/* Building things that <em>(mostly)</em> work — one commit at a time. */}
           </p>
 
           <div className="hero-actions">
