@@ -15,7 +15,7 @@ export default function About() {
       <div className="about-content">
         <div className="sec-label">About</div>
 
-        <div className="about-grid ">
+        <div className="about-grid rv">
           <div className="about-visual">
             <div className="about-frame">
               <img src="profile.png" alt="Abilash" loading="lazy" />
