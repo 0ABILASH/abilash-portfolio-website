@@ -120,7 +120,7 @@ export default function Hero() {
           className={`hero-visual ${showContent ? "hero-visual--show" : ""}`}
         >
           <div className="hero-visual-frame">
-            <img src="/public/vecteezy_confident-3d-cartoon-character-wit-business-casual_51866112.png" alt="Abilash" loading="eager" />
+            <img src="vecteezy_confident-3d-cartoon-character-wit-business-casual_51866112.png" alt="Abilash" loading="eager" />
           </div>
 
           <div
