@@ -48,6 +48,17 @@ export default function Contact() {
       <p className="contact-intro rv">Have a question, project, or just want to say hi? Drop a message.</p>
 
       <div className="contact-inner" ref={ref}>
+        <div className="contact-socials">
+          {socials.map(s => (
+            <a key={s.key} href={s.href} target="_blank" rel="noopener" className="c-social">
+              <span className="c-social-icon">
+                <svg viewBox="0 0 24 24" width="100%" height="100%">{s.icon}</svg>
+              </span>
+              {s.label}
+            </a>
+          ))}
+        </div>
+
         <div className="cf-card">
           <div className="cf-top">
             <span className="cf-top-icon">
@@ -57,7 +68,7 @@ export default function Contact() {
             </span>
             <span>Get in Touch</span>
           </div>
-          <form action="https://formsubmit.co/mailtoabilashy@gmail.com" method="POST" className="cf">
+          <form action="https://formsubmit.co/abilashy@gmail.com" method="POST" className="cf">
             <input type="hidden" name="_subject" value="Portfolio Contact" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="text" name="_honey" style={{ display: 'none' }} />
@@ -81,18 +92,13 @@ export default function Contact() {
           </form>
         </div>
 
-        <div className="contact-socials">
-          {socials.map(s => (
-            <a key={s.key} href={s.href} target="_blank" rel="noopener" className="c-social">
-              <span className="c-social-icon">
-                <svg viewBox="0 0 24 24" width="100%" height="100%">{s.icon}</svg>
-              </span>
-              {s.label}
-            </a>
-          ))}
+        <div className="cb-credit">
+          
+          <a href="https://github.com/0abilash" target="_blank" rel="noopener" className="cb-line"><span className="cb-label">Designer and Developed By</span><span className="cb-value">Abilash</span></a>
+          <a href="https://render.com" target="_blank" rel="noopener" className="cb-line"><span className="cb-label">Hosted on</span><span className="cb-value">render</span></a>
+          <p className="cb-license">This site and all it's content is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
         </div>
       </div>
-      <p className="cb-license">This site and all its content is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
     </section>
   )
 }
