@@ -15,7 +15,3 @@
 
 /*.webp
   Content-Type: image/webp
-
-/gallery/*
-  Content-Type: image/png
-  Cache-Control: public, max-age=31536000, immutable

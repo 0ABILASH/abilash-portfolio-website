@@ -10,11 +10,15 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
-// import Footer from './components/Footer'
 
 export default function App() {
   useScrollReveal()
   useDisableCopy()
+
+  useEffect(() => {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
+    window.scrollTo(0, 0)
+  }, [])
 
   // Nav active state
   useEffect(() => {
@@ -44,7 +48,6 @@ export default function App() {
       <Skills />
       <Experience />
       <Contact />
-      {/* <Footer /> */}
     </>
   )
 }

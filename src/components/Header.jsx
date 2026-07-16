@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header>
       <a href="#home" className="logo">
-        <span className="logo-text">PROFILE</span>
+        <span className="logo-text">PROFESSIONAL PROFILE</span>
       </a>
       <nav>
         <span className="nav-hidden-mobile">

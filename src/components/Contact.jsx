@@ -57,6 +57,12 @@ export default function Contact() {
               {s.label}
             </a>
           ))}
+            <div className="c-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" width="14" height="14">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              <span>Best way to reach out is <strong>mailtoabilashy@gmail.com</strong> or just fill the form. Don&apos;t be shy, I love meeting new people.</span>
+            </div>
         </div>
 
         <div className="cf-card">
@@ -93,10 +99,20 @@ export default function Contact() {
         </div>
 
         <div className="cb-credit">
-          
-          <a href="https://github.com/0abilash" target="_blank" rel="noopener" className="cb-line"><span className="cb-label">Designer and Developed By</span><span className="cb-value">Abilash</span></a>
-          <a href="https://render.com" target="_blank" rel="noopener" className="cb-line"><span className="cb-label">Hosted on</span><span className="cb-value">render</span></a>
-          <p className="cb-license">This site and all it's content is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
+          <div className="cb-main">
+            <a href="https://github.com/0abilash" target="_blank" rel="noopener" className="cb-item">
+              <span className="cb-dot" />
+              <span className="cb-item-label">Designer & Developer</span>
+              <span className="cb-item-value">Abilash</span>
+            </a>
+            <span className="cb-divider" />
+            <a href="https://render.com" target="_blank" rel="noopener" className="cb-item">
+              <span className="cb-dot" />
+              <span className="cb-item-label">Hosted on</span>
+              <span className="cb-item-value">render</span>
+            </a>
+          </div>
+          <p className="cb-license">Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
         </div>
       </div>
     </section>

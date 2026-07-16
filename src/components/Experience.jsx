@@ -50,20 +50,6 @@ export default function Experience() {
             into a developer, and now freelancing as a software engineer —
             continuously learning and building impactful products.
           </p>
-          <div className="about-metrics rv">
-            <div className="about-metric">
-              <span className="about-metric-value">3+</span>
-              <span className="about-metric-label">Years Exp.</span>
-            </div>
-            <div className="about-metric">
-              <span className="about-metric-value">20+</span>
-              <span className="about-metric-label">Projects</span>
-            </div>
-            <div className="about-metric">
-              <span className="about-metric-value">∞</span>
-              <span className="about-metric-label">Tea Cups</span>
-            </div>
-          </div>
         </div>
 
         <div className="exp-timeline">
