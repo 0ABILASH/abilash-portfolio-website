@@ -50,20 +50,21 @@ export default function Hero() {
       <div className="hero-inner">
         <div className={`hero-main ${showContent ? "hero-main--show" : ""}`}>
           {/* <div className="hero-label">Home</div> */}
+          
 
-          <div className="hero-status rv">
-            <span className="hero-status-dot" />
-            <span>Available for work</span>
-          </div>
-
-          <div className="hero-intro">Hi, I&apos;m</div>
+          {/* <div className="hero-intro">Hi, I&apos;m</div> */}
           <h1 className="hero-name">
             <span className="hero-name-line">ABILASH</span>
           </h1>
 
           <div className="hero-role-track">
-            <span className="hero-role-prefix">I build </span>
-            <span className="hero-role-text">{roleText}</span>
+            <span className="hero-role-prefix">I build Degitals</span>
+            {/* <span className="hero-role-text">{roleText}</span> */}
+          </div>
+
+          <div className="hero-status rv">
+            <span className="hero-status-dot" />
+            <span>Available for work</span>
           </div>
 
           <p className="hero-bio rv">
