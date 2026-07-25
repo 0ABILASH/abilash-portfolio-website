@@ -62,7 +62,7 @@ export default function Hero() {
           </h1>
 
           <div className="hero-role-track">
-            <span className="hero-role-prefix">I build Degitals</span>
+            <span className="hero-role-prefix">I Design & Develop.</span>
             {/* <span className="hero-role-text">{roleText}</span> */}
           </div>
 
