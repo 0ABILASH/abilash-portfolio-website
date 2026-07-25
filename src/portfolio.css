@@ -158,7 +158,7 @@ section{position:relative;z-index:2;padding:var(--section-y) var(--gutter)}
 .cf-btn:hover{opacity:.9;transform:translateY(-2px);box-shadow:0 8px 24px rgba(var(--a-rgb),.2)}
 .cf-btn svg{transition:transform .3s}
 .cf-btn:hover svg{transform:translate(3px,-3px)}
-@media(max-width:768px){.contact-grid{grid-template-columns:1fr;gap:28px}.contact-socials{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}.c-social{padding:10px 10px;font-size:.6rem;height:42px}.c-social-arrow{display:none}.cf-card{max-width:100%}.cf{padding:18px}.cf-row{grid-template-columns:1fr}.cf-btn{justify-content:center}section{padding:28px var(--gutter)}.sec-label{margin-bottom:28px;font-size:.46rem;gap:10px}
+@media(max-width:768px){.contact-grid{grid-template-columns:1fr;gap:28px}.contact-socials{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}.c-social{padding:10px 10px;font-size:.6rem;height:42px}.c-social-arrow{display:none}.cf-card{max-width:100%}.cf{padding:18px}.cf-row{grid-template-columns:1fr}.cf-btn{justify-content:center}}
 .cb-credit{margin:12px auto 32px;position:relative;padding-top:24px;border-top:1px solid rgba(var(--a-rgb),.07);display:flex;flex-direction:column;align-items:center;gap:16px}
 .cb-main{display:flex;align-items:center;gap:24px}
 .cb-divider{width:1px;height:28px;background:rgba(var(--a-rgb),.12);flex-shrink:0}
@@ -196,7 +196,7 @@ section{position:relative;z-index:2;padding:var(--section-y) var(--gutter)}
 /* ── Skills mosaic ── */
 .skills-section .sec-label{margin-bottom:28px}
 .sk-mosaic{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;max-width:1000px;margin:0 auto;width:100%}
-.sk-mosaic-card{border:1px solid rgba(hsl(0, 0%, 100%),.06);border-radius:16px;padding:28px 22px 22px;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
+.sk-mosaic-card{border:1px solid rgba(var(--a-rgb),.06);border-radius:16px;padding:28px 22px 22px;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
 .sk-mosaic-card:hover{transform:translateY(-5px);border-color:rgba(var(--a-rgb),.35);box-shadow:0 16px 40px rgba(0,0,0,.06)}
 .sk-mosaic-card.rv.on{animation:skIn .7s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i,0) * .05s)}
 @keyframes skIn{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
