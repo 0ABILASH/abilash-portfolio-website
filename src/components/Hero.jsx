@@ -44,6 +44,10 @@ export default function Hero() {
 
   return (
     <section className="hero" id="home">
+      <div className="availability-popup">
+        <span className="availability-popup-dot" />
+        I&apos;m Available for work
+      </div>
       <div className="hero-bg-layer" />
       <div className="hero-grid" />
 
