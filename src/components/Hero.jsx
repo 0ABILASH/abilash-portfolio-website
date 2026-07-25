@@ -64,7 +64,7 @@ export default function Hero() {
 
           <div className="hero-status rv">
             <span className="hero-status-dot" />
-            <span>Available for work</span>
+            <span className="hero-status-popup">Available for work</span>
           </div>
 
           <p className="hero-bio rv">
