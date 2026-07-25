@@ -43,62 +43,64 @@ export default function Contact() {
 
   return (
     <section className="contact-section" id="contact">
-      <div className="sec-label">Contact</div>
-      <h2 className="rv">Let&apos;s Connect.</h2>
-      <p className="contact-intro rv">Have a question, project, or just want to say hi? Drop a message.</p>
+      <div className="contact-glow" />
+      <div className="contact-content">
+        <div className="contact-header rv">
+          <span className="sec-label">Contact</span>
+          <h2>Let&apos;s <em>Connect</em></h2>
+          <p className="contact-intro">Have a project in mind or just want to chat? I&apos;m always open to new ideas and opportunities.</p>
+        </div>
 
-      <div className="contact-inner" ref={ref}>
-        <div className="contact-socials">
-          {socials.map(s => (
-            <a key={s.key} href={s.href} target="_blank" rel="noopener" className="c-social">
-              <span className="c-social-icon">
-                <svg viewBox="0 0 24 24" width="100%" height="100%">{s.icon}</svg>
-              </span>
-              {s.label}
-            </a>
-          ))}
-            <div className="c-note">
+        <div className="contact-grid" ref={ref}>
+          <div className="contact-left">
+            <div className="contact-socials">
+              {socials.map(s => (
+                <a key={s.key} href={s.href} target="_blank" rel="noopener" className="c-social">
+                  <span className="c-social-icon">
+                    <svg viewBox="0 0 24 24" width="100%" height="100%">{s.icon}</svg>
+                  </span>
+                  <span className="c-social-label">{s.label}</span>
+                  <span className="c-social-arrow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                  </span>
+                </a>
+              ))}
+            </div>
+            <div className="c-note rv">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" width="14" height="14">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
               </svg>
-              <span>Best way to reach out is <strong>mailtoabilashy@gmail.com</strong> or just fill the form. Don&apos;t be shy, I love meeting new people.</span>
+              <span>Best way to reach out is <strong>mailtoabilashy@gmail.com</strong> or just fill the form.</span>
             </div>
-        </div>
-
-        <div className="cf-card">
-          <div className="cf-top">
-            <span className="cf-top-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-              </svg>
-            </span>
-            <span>Get in Touch</span>
           </div>
-          <form action="https://formsubmit.co/abilashy@gmail.com" method="POST" className="cf">
-            <input type="hidden" name="_subject" value="Portfolio Contact" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="text" name="_honey" style={{ display: 'none' }} />
-            <div className="cf-row">
-              <div className="cf-field">
-                <input type="text" name="name" placeholder="Name" className="cf-input" required />
+
+          <div className="cf-card rv">
+            <form action="https://formsubmit.co/abilashy@gmail.com" method="POST" className="cf">
+              <input type="hidden" name="_subject" value="Portfolio Contact" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+              <div className="cf-row">
+                <div className="cf-field">
+                  <input type="text" name="name" placeholder="Your name" className="cf-input" required />
+                </div>
+                <div className="cf-field">
+                  <input type="email" name="email" placeholder="Your email" className="cf-input" required />
+                </div>
               </div>
               <div className="cf-field">
-                <input type="email" name="email" placeholder="Email" className="cf-input" required />
+                <textarea name="message" placeholder="Tell me about your project..." className="cf-input cf-textarea" rows="5" required></textarea>
               </div>
-            </div>
-            <div className="cf-field">
-              <textarea name="message" placeholder="Message" className="cf-input cf-textarea" rows="4" required></textarea>
-            </div>
-            <button type="submit" className="cf-btn">
-              Send Message
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
-              </svg>
-            </button>
-          </form>
+              <button type="submit" className="cf-btn">
+                Send Message
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
 
-        <div className="cb-credit">
+        <div className="cb-credit rv">
           <div className="cb-main">
             <a href="https://github.com/0abilash" target="_blank" rel="noopener" className="cb-item">
               <span className="cb-dot" />
