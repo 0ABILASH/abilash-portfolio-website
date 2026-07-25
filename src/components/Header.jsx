@@ -11,6 +11,7 @@ export default function Header() {
 
   return (
     <header className={scrolled ? 'header--scrolled' : ''}>
+      <a href="#home" className="header-brand">A</a>
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
