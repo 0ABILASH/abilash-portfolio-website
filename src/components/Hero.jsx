@@ -62,11 +62,6 @@ export default function Hero() {
             {/* <span className="hero-role-text">{roleText}</span> */}
           </div>
 
-          <div className="hero-status">
-            <span className="hero-status-dot" />
-            <span className="hero-status-popup">Available for work</span>
-          </div>
-
           <p className="hero-bio rv">
             I&apos;m passionate about software and design, and I enjoy building
             useful digital experiences. I&apos;m always open to learning and
