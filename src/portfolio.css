@@ -140,7 +140,7 @@ section{position:relative;z-index:2;padding:var(--section-y) var(--gutter)}
 .contact-section h2{font-family:"Alan Sans",sans-serif;font-optical-sizing:auto;font-style:normal;font-size:clamp(1.8rem,5vw,3.2rem);font-weight:500;line-height:.95;margin-bottom:16px;max-width:520px;margin-left:auto;margin-right:auto;width:100%}
 .contact-section h2 em{color:var(--a)}
 .contact-intro{font-size:.75rem;opacity:.5;margin:0 auto 36px;max-width:480px;padding:0 var(--gutter,24px)}
-.contact-inner{max-width:1200px;margin:0 auto;padding:0 var(--gutter,24px);display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}.contact-inner>.cf-card{grid-column:2}.contact-inner>.contact-socials{grid-column:1}.contact-inner>.cb-credit{grid-column:1/-1}
+.contact-inner{max-width:1200px;margin:0 auto;padding:0 var(--gutter,24px);display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}.contact-inner>.cf-card{grid-column:2}.contact-inner>.contact-socials{grid-column:1}.contact-inner>.cb-credit{grid-column:1/-1}
 .cf-card{background:rgba(var(--a-rgb),.015);border:1px solid rgba(var(--a-rgb),.08);border-radius:16px;padding:0;position:relative;width:100%;overflow:hidden}
 .cf-top{display:flex;align-items:center;gap:10px;padding:16px 20px;background:rgba(var(--a-rgb),.03);border-bottom:1px solid rgba(var(--a-rgb),.06);font-size:.78rem;font-weight:600;letter-spacing:-.01em}
 .cf-top-icon{width:28px;height:28px;border-radius:8px;background:rgba(var(--a-rgb),.06);display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -207,7 +207,7 @@ section{position:relative;z-index:2;padding:var(--section-y) var(--gutter)}
 .skills-section .sec-label{margin-bottom:28px}
 .sk-mosaic{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;max-width:1000px;margin:0 auto;width:100%}
 .sk-mosaic-card{border:1px solid rgba(var(--a-rgb),.06);border-radius:16px;padding:28px 22px 22px;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
-.sk-mosaic-card:hover{transform:translateY(-5px);border-color:rgba(var(--a-rgb),.18);box-shadow:0 16px 40px rgba(0,0,0,.06)}
+.sk-mosaic-card:hover{transform:translateY(-5px);border-color:rgba(var(--a-rgb),.35);box-shadow:0 16px 40px rgba(0,0,0,.06)}
 .sk-mosaic-card.rv.on{animation:skIn .7s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i,0) * .05s)}
 @keyframes skIn{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
 .sk-mosaic-card.size-a{grid-column:span 7;padding:34px 28px 28px}
