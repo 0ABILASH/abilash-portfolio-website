@@ -2,8 +2,6 @@ import { useEffect } from 'react'
 import { useScrollReveal } from './hooks/useScrollReveal'
 import { useDisableCopy } from './hooks/useDisableCopy'
 
-import Loader from './components/Loader'
-
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -41,7 +39,6 @@ export default function App() {
 
   return (
     <>
-      <Loader />
       <Header />
       <Hero />
       <About />
