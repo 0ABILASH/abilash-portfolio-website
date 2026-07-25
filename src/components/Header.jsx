@@ -1,9 +1,6 @@
 export default function Header() {
   return (
     <header>
-      <a href="#home" className="logo">
-        <span className="logo-text">A</span>
-      </a>
       <nav>
         <span className="nav-hidden-mobile">
           <a href="#about">About</a>
