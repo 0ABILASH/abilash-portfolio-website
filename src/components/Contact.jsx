@@ -103,15 +103,13 @@ export default function Contact() {
         <div className="cb-credit rv">
           <div className="cb-main">
             <a href="https://github.com/0abilash" target="_blank" rel="noopener" className="cb-item">
-              <span className="cb-dot" />
               <span className="cb-item-label">Developed by</span>
               <span className="cb-item-value">Abilash</span>
             </a>
             <span className="cb-divider" />
             <a href="https://render.com" target="_blank" rel="noopener" className="cb-item">
-              <span className="cb-dot" />
               <span className="cb-item-label">Hosted</span>
-              <span className="cb-item-value">render</span> 
+              <span className="cb-item-value">render</span>
             </a>
           </div>
           <p className="cb-license">Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></p>
