@@ -9,16 +9,9 @@ export default function Hero() {
   const [roleText, setRoleText] = useState("");
   const [rolePhase, setRolePhase] = useState("typing");
   const [showContent, setShowContent] = useState(false);
-  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setShowContent(true), 100);
-  }, []);
-
-  useEffect(() => {
-    const t1 = setTimeout(() => setShowPopup(true), 2800);
-    const t2 = setTimeout(() => setShowPopup(false), 7000);
-    return () => { clearTimeout(t1); clearTimeout(t2); };
   }, []);
 
   useEffect(() => {
@@ -71,7 +64,7 @@ export default function Hero() {
 
           <div className="hero-status">
             <span className="hero-status-dot" />
-            <span className={`hero-status-popup ${showPopup ? "hero-status-popup--show" : ""}`}>Available for work</span>
+            <span className="hero-status-popup">Available for work</span>
           </div>
 
           <p className="hero-bio rv">
