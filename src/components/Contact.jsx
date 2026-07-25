@@ -104,7 +104,7 @@ export default function Contact() {
           <div className="cb-main">
             <a href="https://github.com/0abilash" target="_blank" rel="noopener" className="cb-item">
               <span className="cb-dot" />
-              <span className="cb-item-label">Developer by</span>
+              <span className="cb-item-label">Developed by</span>
               <span className="cb-item-value">Abilash</span>
             </a>
             <span className="cb-divider" />
