@@ -69,7 +69,7 @@ export default function Hero() {
             {/* <span className="hero-role-text">{roleText}</span> */}
           </div>
 
-          <div className="hero-status rv">
+          <div className="hero-status">
             <span className="hero-status-dot" />
             <span className={`hero-status-popup ${showPopup ? "hero-status-popup--show" : ""}`}>Available for work</span>
           </div>
