@@ -16,8 +16,8 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
-    const t1 = setTimeout(() => setShowPopup(true), 2000);
-    const t2 = setTimeout(() => setShowPopup(false), 6000);
+    const t1 = setTimeout(() => setShowPopup(true), 2800);
+    const t2 = setTimeout(() => setShowPopup(false), 7000);
     return () => { clearTimeout(t1); clearTimeout(t2); };
   }, []);
 
